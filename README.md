@@ -8,4 +8,4 @@ As soon as I finish one class, I would organize what I learn into this resposito
 
 If you want to know about Natural Language Processing with Deep Learning, take this class, [cs224n of stanford](http://web.stanford.edu/class/cs224n/)
 
-My note for this repository is [here, my note for cs224n of stanford](https://hyunyoung2/my-note-for-cs224n-stanford/cs224n/)
+My note for this repository is [here, my note for cs224n of stanford](https://hyunyoung2/my-note-for-cs224n-stanford/)
