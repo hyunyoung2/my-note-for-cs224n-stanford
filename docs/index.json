@@ -70,6 +70,13 @@
 	"content": " Activate search If not already present, add the follow lines to the config.toml file.\n[outputs] home = [ \u0026quot;HTML\u0026quot;, \u0026quot;RSS\u0026quot;, \u0026quot;JSON\u0026quot;]  Docdock theme uses the last improvement available in hugo version 20+ to generate a json index file ready to be consumed by lunr.js javascript search engine.\n hugo generate lunrjs index.json at the root of public folder if the site only has one language or within each language subfolder. When you build the site with hugo server, hugo generates it internally and of course it don\u0026rsquo;t show up in the filesystem "
 },
 {
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/post/",
+	"title": "Post",
+	"tags": [],
+	"description": "",
+	"content": " SVM light and SVM Multiclass   SVM light and SVM Multiclass Practice  from hyunyoung Lee    \nReferenc  how to post with the custom css  "
+},
+{
 	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/homepage/",
 	"title": "Home page",
 	"tags": ["tag1", "tag2"],
@@ -130,7 +137,7 @@
 	"title": "Credits",
 	"tags": [],
 	"description": "contributors and packages used by hugo-theme-docdock",
-	"content": " github contributors .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @hyunyoung2 2 commits   Other contributors  @hyunyoung2 supports and advices   Packages and libraries  Bootstrap - front-end framework mermaid - generation of diagram and flowchart from text in a similar manner as markdown font awesome - the iconic font and CSS framework jQuery - The Write Less, Do More, JavaScript Library lunr - Lunr enables you to provide a great search experience without the need for external, server-side, search services\u0026hellip; JavaScript-autoComplete - An extremely lightweight and powerful vanilla JavaScript completion suggester. clipboard.js - copy text to clipboard highlight.js - Javascript syntax highlighter modernizr - A JavaScript toolkit that allows web developers to use new CSS3 and HTML5 features while maintaining a fine level of control over browsers that don\u0026rsquo;t support reveal-js - The HTML Presentation Framework  Tooling  Netlify - Continuous deployement and hosting of this documentation Hugo    "
+	"content": " github contributors .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @hyunyoung2 5 commits   Other contributors  @hyunyoung2 supports and advices   Packages and libraries  Bootstrap - front-end framework mermaid - generation of diagram and flowchart from text in a similar manner as markdown font awesome - the iconic font and CSS framework jQuery - The Write Less, Do More, JavaScript Library lunr - Lunr enables you to provide a great search experience without the need for external, server-side, search services\u0026hellip; JavaScript-autoComplete - An extremely lightweight and powerful vanilla JavaScript completion suggester. clipboard.js - copy text to clipboard highlight.js - Javascript syntax highlighter modernizr - A JavaScript toolkit that allows web developers to use new CSS3 and HTML5 features while maintaining a fine level of control over browsers that don\u0026rsquo;t support reveal-js - The HTML Presentation Framework  Tooling  Netlify - Continuous deployement and hosting of this documentation Hugo    "
 },
 {
 	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/customize-style/disable/",
@@ -140,11 +147,11 @@
 	"content": " You can disable feature in docdock by changing some params in config.toml\nhide Next / Prev Chevrons [params] disableNavChevron = true  hide Search box in side menu [params] disableSearch = true  hide the  icon in side bar [params] disableHomeIcon = true  "
 },
 {
-	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/showcase/",
-	"title": "Docdock-built Sites",
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/",
+	"title": "Posts",
 	"tags": [],
-	"description": "Hugo-built Sites with docdock theme",
-	"content": " https://invincible.site/ by @shazic https://bitfan.io/ by @vjeantet "
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/tags/tag1/",

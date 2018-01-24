@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/post/</loc>
+    <lastmod>2018-01-24T19:18:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/homepage/</loc>
     <lastmod>2017-04-28T18:36:24+02:00</lastmod>
   </url>
@@ -96,7 +101,9 @@
   </url>
   
   <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/showcase/</loc>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/</loc>
+    <lastmod>2018-01-24T19:18:00+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

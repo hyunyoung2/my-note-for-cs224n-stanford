@@ -60,6 +60,16 @@ Example from the current website, note the pre param which allows you to insert 
     </item>
     
     <item>
+      <title>Post</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/post/</link>
+      <pubDate>Wed, 24 Jan 2018 19:18:00 +0900</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/post/</guid>
+      <description> SVM light and SVM Multiclass   SVM light and SVM Multiclass Practice  from hyunyoung Lee    
+Referenc  how to post with the custom css  </description>
+    </item>
+    
+    <item>
       <title>Home page</title>
       <link>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/homepage/</link>
       <pubDate>Fri, 28 Apr 2017 18:36:24 +0200</pubDate>
@@ -124,7 +134,7 @@ Special syntax (in html comment) is available for adding attributes to Markdown 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/credits/</guid>
-      <description>github contributors .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @hyunyoung2 2 commits   Other contributors  @hyunyoung2 supports and advices   Packages and libraries  Bootstrap - front-end framework mermaid - generation of diagram and flowchart from text in a similar manner as markdown font awesome - the iconic font and CSS framework jQuery - The Write Less, Do More, JavaScript Library lunr - Lunr enables you to provide a great search experience without the need for external, server-side, search services&amp;hellip; JavaScript-autoComplete - An extremely lightweight and powerful vanilla JavaScript completion suggester.</description>
+      <description>github contributors .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @hyunyoung2 5 commits   Other contributors  @hyunyoung2 supports and advices   Packages and libraries  Bootstrap - front-end framework mermaid - generation of diagram and flowchart from text in a similar manner as markdown font awesome - the iconic font and CSS framework jQuery - The Write Less, Do More, JavaScript Library lunr - Lunr enables you to provide a great search experience without the need for external, server-side, search services&amp;hellip; JavaScript-autoComplete - An extremely lightweight and powerful vanilla JavaScript completion suggester.</description>
     </item>
     
     <item>
@@ -135,15 +145,6 @@ Special syntax (in html comment) is available for adding attributes to Markdown 
       <guid>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/customize-style/disable/</guid>
       <description> You can disable feature in docdock by changing some params in config.toml
 hide Next / Prev Chevrons [params] disableNavChevron = true  hide Search box in side menu [params] disableSearch = true  hide the  icon in side bar [params] disableHomeIcon = true  </description>
-    </item>
-    
-    <item>
-      <title>Docdock-built Sites</title>
-      <link>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/showcase/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/showcase/</guid>
-      <description> https://invincible.site/ by @shazic https://bitfan.io/ by @vjeantet </description>
     </item>
     
     <item>
