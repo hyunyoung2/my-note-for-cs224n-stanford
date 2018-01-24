@@ -10,7 +10,7 @@ draft: false
 
 
 
-<link rel="stylesheet" type="text/css" href="/css/ForYouTubeByHyun.css">
+
 <div id="tutorial-section">
   <div id="tutorial-title" style="text-align: center">SVM light and SVM Multiclass</div>
   <div class="tab-content">

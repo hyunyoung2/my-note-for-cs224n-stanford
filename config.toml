@@ -10,14 +10,14 @@ publishDir = "docs"
 [params]
 editURL = "https://github.com/hyunyoung2/my-note-for-cs224n-stanford/edit/master/content/"
 showVisitedLinks = true # default is false
-themeStyle = "flex" # "original" or "flex" # default "original"
+themeStyle = "original" # "original" or "flex" # default "original"
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
 disableHomeIcon = false # default is false
 disableSearch = true # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
-# For my custom CSS
-customCSS = ["css/ForYouTubeByHyun.css"]
+
+
 
 
 
