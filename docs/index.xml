@@ -18,7 +18,7 @@
       
       <guid>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/logo/</guid>
       <description>Create a _header.md page in content folder. Its content is what you get in the logo placeholder (top left of the screen).
-**Tip :** you can add a image, a combobox with links to other documentation.... **Tip 2 :** look at [extra static menu](/my-note-for-cs224n-stanford/content-organisation/extramenu/) if you want to add links to other website in this sidebar </description>
+Tip : you can add a image, a combobox with links to other documentation&amp;hellip;. Tip 2 : look at extra static menu if you want to add links to other website in this sidebar </description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@
       <description>&lt;div class=&#34;alert 
 alert-warning&#34;
  
-role=&#34;alert&#34;&gt;HUGO &lt;strong&gt;v0.30&lt;/strong&gt; minimum required to use this theme&lt;/div&gt;
+role=&#34;alert&#34;&gt;HUGO &lt;strong&gt;v0.32&lt;/strong&gt; minimum required to use this theme&lt;/div&gt;
 
 
 &lt;p&gt;The following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;great documentation for beginners&lt;/a&gt;.
@@ -133,7 +133,7 @@ Special syntax (in html comment) is available for adding attributes to Markdown 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/credits/</guid>
-      <description>github contributors .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @hyunyoung2 5 commits   Other contributors  @hyunyoung2 supports and advices   Packages and libraries  Bootstrap - front-end framework mermaid - generation of diagram and flowchart from text in a similar manner as markdown font awesome - the iconic font and CSS framework jQuery - The Write Less, Do More, JavaScript Library lunr - Lunr enables you to provide a great search experience without the need for external, server-side, search services&amp;hellip; JavaScript-autoComplete - An extremely lightweight and powerful vanilla JavaScript completion suggester.</description>
+      <description>github contributors .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @vjeantet 246 commits   @matcornic 49 commits   @W-Floyd 24 commits   @gwleclerc 21 commits   @lierdakil 16 commits   @Pilskalns 12 commits   @jose-oc 8 commits   @SiamKreative 6 commits   @Xipas 5 commits   @altinnadmin 4 commits   @FMuro 2 commits   @Thiht 2 commits   @EnigmaCurry 2 commits   @aral 2 commits   @adamlamar 1 commits   @byzheng 1 commits   @zivbk1 1 commits   @damoon 1 commits   @vielmetti 1 commits   @erikjasiak 1 commits   @giuliov 1 commits   @farmergreg 1 commits   @jodumont 1 commits   @tarpdalton 1 commits   @jamestharpe 1 commits   @JohnBlood 1 commits   @kamilchm 1 commits   @ripienaar 1 commits   @shazic 1 commits   @viertaxa 1 commits   @uweschaefer 1 commits   @eyoder 1 commits   @justin-yan 1 commits   @karlmacklin 1 commits   @petzi53 1 commits   @remi31000 1 commits   @xxxtonixxx 1 commits   Other contribution  @bep supports and advices   @facette.</description>
     </item>
     
     <item>
@@ -144,6 +144,15 @@ Special syntax (in html comment) is available for adding attributes to Markdown 
       <guid>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/customize-style/disable/</guid>
       <description> You can disable feature in docdock by changing some params in config.toml
 hide Next / Prev Chevrons [params] disableNavChevron = true  hide Search box in side menu [params] disableSearch = true  hide the  icon in side bar [params] disableHomeIcon = true  </description>
+    </item>
+    
+    <item>
+      <title>Docdock-built Sites</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/showcase/</guid>
+      <description> https://invincible.site/ by @shazic https://bitfan.io/ by @vjeantet </description>
     </item>
     
     <item>
@@ -302,7 +311,7 @@ A tip disclaimer
       <description>This shortcode will format the enclosed markdow to render it with reveal.js at runtime (client-side)
 Read more on revealjs github repo.
 Usage revealjs can use the following named parameters :
- theme transition controls progress history center  Important Even if the enclosed content is a mardown, use ` Content formating and slide delimiters read more on this here
+ theme transition controls progress history center  Important Even if the enclosed content is a mardown, use &amp;lt; shortcode notation instead of the % notation  Content formating and slide delimiters read more on this here
 Demo  # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep       function initSlides() { Reveal.</description>
     </item>
     

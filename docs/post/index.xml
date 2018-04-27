@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on my note for CS224n of stanford</title>
+    <link>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/</link>
+    <description>Recent content in Posts on my note for CS224n of stanford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2018 19:18:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/post/</link>
+      <pubDate>Wed, 24 Jan 2018 19:18:00 +0900</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/post/</guid>
+      <description> SVM light and SVM Multiclass   SVM light and SVM Multiclass Practice  from hyunyoung Lee     Referenc  how to post with the custom css  </description>
+    </item>
+    
+  </channel>
+</rss>

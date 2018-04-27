@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my note for CS224n of stanford</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.40.1" />
+
+<title>Docdock-built Sites :: my note for CS224n of stanford</title>
+<link rel="shortcut icon" href="/my-note-for-cs224n-stanford/images/favicon.png" type="image/x-icon" />
+<link href="/my-note-for-cs224n-stanford/css/nucleus.css" rel="stylesheet">
+<link href="/my-note-for-cs224n-stanford/css/font-awesome.min.css" rel="stylesheet">
+<link href="/my-note-for-cs224n-stanford/css/hybrid.css" rel="stylesheet">
+<link href="/my-note-for-cs224n-stanford/css/featherlight.min.css" rel="stylesheet">
+<link href="/my-note-for-cs224n-stanford/css/auto-complete.css" rel="stylesheet">
+<link href="/my-note-for-cs224n-stanford/theme-original/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/my-note-for-cs224n-stanford/css/bootstrap.min.css">
+<script src="/my-note-for-cs224n-stanford/js/jquery-2.x.min.js"></script>
+<style type="text/css">
+  :root #header + #content > #left > #rlblock_left {
+    display:none !important;
+  }
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-110793901-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    
+  </head>
+  <body data-url="/my-note-for-cs224n-stanford/showcase/">
+    
+      <div id="headermain"></div>
+<nav id="sidebar" class="showVisitedLinks">
+
+
+
+<div class="highlightable">
+  <div id="header-wrapper">
+    <div id="header">
+      
+	
+  
+    <p>DocDock Documentation</p>
+
+  
+
+    </div>
+  </div>
+
+      <ul class="topics">
+            <li data-nav-id="/my-note-for-cs224n-stanford/" class="dd-item">
+            <a href="/my-note-for-cs224n-stanford/"><i class="fa fa-fw fa-home"></i></a>
+            </li>
+    <li data-nav-id="/my-note-for-cs224n-stanford/getting-start/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/getting-start/">Getting started</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs224n-stanford/getting-start/installation/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/getting-start/installation/">
+            Installation
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/getting-start/configuration/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/getting-start/configuration/">
+            Configuration
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs224n-stanford/create-page/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/create-page/"><i class='fa fa-edit' ></i> Create Page</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs224n-stanford/create-page/homepage/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/create-page/homepage/">
+            Home page
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/create-page/page-images/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/create-page/page-images/">
+            About images
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/create-page/page-slide/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/create-page/page-slide/">
+            Present a Slide
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs224n-stanford/content-organisation/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/content-organisation/">Content Organisation</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs224n-stanford/content-organisation/logo/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/content-organisation/logo/">
+            Logo placeholder
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/content-organisation/extramenu/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/content-organisation/extramenu/">
+            Extra menu entries
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+    <li data-nav-id="/my-note-for-cs224n-stanford/content-organisation/customize-style/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/content-organisation/customize-style/">Customize website look and feel</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs224n-stanford/content-organisation/customize-style/disable/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/content-organisation/customize-style/disable/">
+            Disable features
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/content-organisation/customize-style/themestyle/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/content-organisation/customize-style/themestyle/">
+            Theme styles
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/content-organisation/customize-style/theme-variants/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/content-organisation/customize-style/theme-variants/">
+            Theme variants
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/shortcodes/">Shortcodes</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/alert/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/alert/">
+            alert
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/attachments/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/attachments/">
+            attachments
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/button/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/button/">
+            button
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+    <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/children/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/shortcodes/children/">children</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/children/children-1/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/shortcodes/children/children-1/">page 1</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/">page 1-1</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/">page 1-1-1</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/">page 1-1-1-1</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/" class="dd-item
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/">page 1-1-1-1-1</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/children/children-2/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/shortcodes/children/children-2/">page 2</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/children/children-2/test3/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/children/children-2/test3/">
+            page test 3
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/children/children-3/" class="dd-item
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/shortcodes/children/children-3/">page 3</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/children/test/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/children/test/">
+            page test
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/excerpt/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/excerpt/">
+            excerpt
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/excerpt-include/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/excerpt-include/">
+            excerpt-include
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/expand/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/expand/">
+            expand
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/icon/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/icon/">
+            icon
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/mermaid/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/mermaid/">
+            mermaid
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/notice/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/notice/">
+            notice
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/panel/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/panel/">
+            panel
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs224n-stanford/shortcodes/revealjs/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/shortcodes/revealjs/">
+            revealjs
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs224n-stanford/search/" class="dd-item
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/search/">About the Search Engine</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/my-note-for-cs224n-stanford/post/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs224n-stanford/post/">Posts</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs224n-stanford/post/post/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs224n-stanford/post/post/">
+            Post
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+        <section id="shortcuts">
+                <li class="" role=""><h3>More</h3><a href="https://github.com/hyunyoung2/my-note-for-cs224n-stanford" target="_blank" rel="noopener"><i class='fa fa-github'></i>My note for CS224n of stanford Github repo</a></li>
+                <li class="" role=""><a href="https://gohugo.io/" target="_blank" rel="noopener"><i class='fa fa-bookmark'></i> Hugo Documentation</a></li>
+                <li class="" role=""><a href="/my-note-for-cs224n-stanford/credits" target="_blank" rel="noopener"><i class='fa fa-bullhorn'></i> Credits</a></li>
+        </section>
+            <a id="clear-history" class="" href="#" data-clear-history-toggle=""><i class="fa  fa-history"></i> Clear History</a>
+
+    <hr />
+    <li></li>
+    
+    </ul>
+
+ <section id="footer"><center>
+
+<a class="github-button" href="https://github.com/hyunyoung/my-note-for-cs224n-stanford/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download hyunyoung2/my-note-for-cs224n-stanford on GitHub">Download</a>
+
+
+<a class="github-button" href="https://github.com/hyunyoung2/my-note-for-cs224n-stanford" data-icon="octicon-star" data-show-count="false" aria-label="Star hyunyoung2/my-note-for-cs224n-stanford on GitHub">Star</a>
+
+
+<a class="github-button" href="https://github.com/hyunyoung2/my-note-for-cs224n-stanford/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork hyunyoung2/my-note-for-cs224n-stanford on GitHub">Fork</a>
+
+
+
+</center>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    </section>
+  </div>
+</nav>
+
+
+
+<section id="body">
+<div id="overlay"></div>
+<div class="padding highlightable">
+
+  <div id="top-bar">
+    
+      
+      
+      
+    <div id="top-github-link">
+      <a class="github-link" href="https://github.com/hyunyoung2/my-note-for-cs224n-stanford/edit/master/content/showcase.md" target="blank">
+        <i class="fa fa-code-fork"></i>
+        Improve this page
+      </a>
+    </div><div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <span id="sidebar-toggle-span">
+          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+            <i class="fa fa-bars"></i>
+          </a>
+        </span>
+        <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+        <span class="links">
+        
+
+
+
+
+ <a href='/my-note-for-cs224n-stanford/'>DocDock Theme for Hugo</a> > Docdock-built Sites
+
+ 
+
+   
+        </span>
+    </div>
+    
+    
+    <div class="progress">
+        <div class="wrapper">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#https-invincible-site-https-invincible-site-by-shazic-https-github-com-shazic"><a href="https://invincible.site/">https://invincible.site/</a>  by <a href="https://github.com/shazic">@shazic</a></a></li>
+<li><a href="#https-bitfan-io-https-bitfan-io-by-vjeantet-https-github-com-vjeantet"><a href="https://bitfan.io">https://bitfan.io/</a>  by <a href="https://github.com/vjeantet">@vjeantet</a></a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+        </div>
+    </div>
+    
+
+  </div>
+
+
+<div id="body-inner">
+  
+    <h1>Docdock-built Sites</h1>
+  
+
+
+
+    
+    
+    
+    
+
+<h4 id="https-invincible-site-https-invincible-site-by-shazic-https-github-com-shazic"><a href="https://invincible.site/">https://invincible.site/</a>  by <a href="https://github.com/shazic">@shazic</a></h4>
+
+<p><img src="/showcase/invincible.site.png?height=250&amp;classes=border,shadow" alt="https://invincible.site/" /></p>
+
+<h4 id="https-bitfan-io-https-bitfan-io-by-vjeantet-https-github-com-vjeantet"><a href="https://bitfan.io">https://bitfan.io/</a>  by <a href="https://github.com/vjeantet">@vjeantet</a></h4>
+
+<p><img src="/showcase/bitfan.site.png?height=250&amp;classes=border,shadow" alt="https://bitfan.io/" /></p>
+
+
+    
+    
+          <footer class=" footline" >
+	
+</footer>
+  </div>
+</div>
+
+<div id="navigation">
+<a class="nav nav-next" href="/my-note-for-cs224n-stanford/getting-start/" title="Getting started" style="margin-right: 0px;"><label>Getting started</label><i class="fa fa-chevron-right"></i></a></div>
+
+</section>
+<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+  <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+</div>    
+
+<script src="/my-note-for-cs224n-stanford/js/clipboard.min.js"></script>
+<script src="/my-note-for-cs224n-stanford/js/featherlight.min.js"></script>
+<script src="/my-note-for-cs224n-stanford/js/html5shiv-printshiv.min.js"></script>
+
+<script src="/my-note-for-cs224n-stanford/js/modernizr.custom.71422.js"></script>
+<script src="/my-note-for-cs224n-stanford/js/docdock.js"></script>
+<script src="/my-note-for-cs224n-stanford/theme-original/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>
