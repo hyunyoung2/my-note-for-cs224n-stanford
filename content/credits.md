@@ -11,16 +11,11 @@ description = "contributors and packages used by hugo-theme-docdock"
 <div class="ghContributors">
 
 <div>
-<img src="https://avatars2.githubusercontent.com/u/394382?v=3" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
+<img src="https://avatars2.githubusercontent.com/hyunyoung2" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
 <label>@<a href="https://github.com/bep">bep</a></label>
 <span class="contributions">supports and advices</span>
 </div>
 
-<div>
-<img src="https://avatars1.githubusercontent.com/u/959400?s=200&v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-<label>@<a href="https://github.com/facette">facette.io</a></label>
-<span class="contributions">Flex style based on facette documentation theme, <br>Thanks to @vbatoufflet</span>
-</div>
 
 </div>
 
