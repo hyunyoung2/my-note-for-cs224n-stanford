@@ -21,6 +21,223 @@
 	"content": "HUGO v0.32 minimum required to use this theme The following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners. Installation We assume that all changes to Hugo content and customizations are going to be tracked by git (GitHub, Bitbucket etc.). Develop locally, build on remote system.\nBefore start real work:\n Initialize Hugo Install DocDock theme Configure DocDock and Hugo  Prepare empty Hugo site Create empty directory, which will be root of your Hugo project. Navigate there and let Hugo to create minimal required directory structure:\n$ hugo new site .  AFTER that, initialize this as git directory where to track further changes\n$ git init  Next, there are at least three ways to install DocDock (first recommended):\n As git submodule As git clone As direct copy (from ZIP)  Navigate to your themes folder in your Hugo site and use perform one of following scenarios.\n1. Install DocDock as git submodule DocDock will be added like a dependency repo to original project. When using CI tools like Netlify, Jenkins etc., submodule method is required, or you will get theme not found issues. Same applies when building site on remote server trough SSH.\nIf submodule is no-go, use 3rd option.\nOn your root of Hugo execute:\n$ git submodule add https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock  Next initialize submodule for parent git repo:\n$ git submodule init $ git submodule update  Now you are ready to add content and customize looks. Do not change any file inside theme directory.\nIf you want to freeze changes to DocDock theme itself and use still submodules, fork private copy of DocDock and use that as submodule. When you are ready to update theme, just pull changes from origin to your private fork.\n2. Install DocDock simply as git clone This method results that files are checked out locally, but won\u0026rsquo;t be visible from parent git repo. Probably you will build site locally with hugo command and use result from public/ on your own.\n$ git clone https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock  3. Install DocDock from ZIP All files from theme will be tracked inside parent repo, to update it, have to override files in theme.  download following zip and extract inside themes/.\nhttps://github.com/vjeantet/hugo-theme-docdock/archive/master.zip  Name of theme in next step will be hugo-theme-docdock-master, can rename as you wish.\nConfiguration Follow instructions here\n"
 },
 {
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture01/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture02/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture03/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture04/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture05/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture06/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture07/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture08/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture09/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture10/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture11/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture12/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture13/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture14/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture15/",
+	"title": "Lecture 1 : Introduction",
+	"tags": [],
+	"description": "",
+	"content": "  2017 version of Youtube   Youtube link of Satnford University School of Engineering \nThis is from Youtube of Stanford University School of Engineering\n\nlecture 1 2017 \n   \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/",
+	"title": "Lecture Youtube",
+	"tags": [],
+	"description": "",
+	"content": "My note for cs224n : Natural Language Processing with Deep Learning of stanford\nThey are give you lecture video of 2017 winter version for people out of stanford.\nSo I would study with Lecture note on 2017 winter version of CS224N, Because I have already heard of the youtube 0f 2017 version. This is just for review on my deep learning once again with 2017 and 2018 version of CS224n.\n"
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note01/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note02/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note03/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note04/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note05/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note06/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note07/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note08/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note09/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note10/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note11/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note12/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note13/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note14/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note15/",
+	"title": "Note 1 : Image Classification",
+	"tags": [],
+	"description": "",
+	"content": "  CS224n\u0026#39;s 2017 winter lectur note   git repository of CS224n 2017 winter note \nThis is from lecture note of CS224n : Natural Language Processing with Deep Learning on 2017 winter.\n\nNote1 on git repsitory \nNote1 on nbviewer of jupyter \n  "
+},
+{
 	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/extramenu/",
 	"title": "Extra menu entries",
 	"tags": [],
@@ -33,6 +250,13 @@
 	"tags": [],
 	"description": "",
 	"content": "When building the website, you can set a theme by using --theme option. We suggest you to edit your configuration file and set the theme by default. Example with config.toml format. Import sample config from sample site to Hugo root:\n$ cp themes/docdock/exampleSite/config.toml .  Change following config.toml line as needed, depending on method above:\ntheme = \u0026quot;\u0026lt;hugo-theme-docdock-dir-name\u0026gt;\u0026quot;  Comment out following line, so default themes/ will be used:\n# themesdir = \u0026quot;../..\u0026quot;  Activate search If not already present, add the follow lines to the config.toml file.\n[outputs] home = [ \u0026#34;HTML\u0026#34;, \u0026#34;RSS\u0026#34;, \u0026#34;JSON\u0026#34;] LUNRJS search index file will be generated on content changes.\n(Bonus) Create empty file .gitkeep inside public/ and add following to .gitignore. This way it will keep repo smaller and won\u0026rsquo;t bring build result files and errors to remote checkout places:\n/public/* !/public/.gitkeep  Preview site $ hugo server  to browse site on http://localhost:1313\nYour website\u0026rsquo;s content Find out how to create and organize your content quickly and intuitively.\n"
+},
+{
+	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/",
+	"title": "Lecture note",
+	"tags": [],
+	"description": "",
+	"content": "My note for cs224n : Natural Language Processing with Deep Learning of stanford\nThey are give you lecture video of 2017 winter version for people out of stanford.\nSo I would study with Lecture note on 2017 winter version of CS224N, Because I have already heard of the youtube 0f 2017 version. This is just for review on my deep learning once again with 2017 and 2018 version of CS224n.\n"
 },
 {
 	"uri": "https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/customize-style/",
