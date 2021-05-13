@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="generator" content="Hugo 0.40.1" />
+<meta name="generator" content="Hugo 0.83.1" />
 <title>Content Organisation :: my note for CS224n of stanford</title>
 <link rel="shortcut icon" href="/my-note-for-cs224n-stanford/images/favicon.png" type="image/x-icon" />
 <link href="/my-note-for-cs224n-stanford/css/font-awesome.min.css" rel="stylesheet">
@@ -679,14 +679,9 @@
     
     
 
-
-
 <p>With <strong>Hugo</strong>, pages are the core of your site. Organize your site like any other Hugo project. <strong>Magic occurs with the nested sections implemention done in v0.22 of hugo (congrats @bep)</strong>.</p>
-
 <p>With docdock, <strong>Each content page composes the menu</strong>, they shape the structure of your website.</p>
-
 <p>To link pages to each other, place them in a folders hierarchy</p>
-
 <pre><code>content
 ├── level-one
 │   ├── level-two
@@ -710,112 +705,55 @@
 │   └── page-1-c.md
 ├── _index.md
 └── page-top.md
-</code></pre>
-
-<div class="alert 
-	alert-info"
- 
-role="alert"><strong>_index.md</strong> is required in each folder, it&rsquo;s your &ldquo;folder home page&rdquo;</div>
-
-
+</code></pre><!-- raw HTML omitted -->
+<p>role=&ldquo;alert&rdquo;&gt; <strong>_index.md</strong> is required in each folder, it&rsquo;s your &ldquo;folder home page&rdquo;<!-- raw HTML omitted --></p>
 <h3 id="add-header-to-a-menu-entry">Add header to a menu entry</h3>
-
 <p>in the page frontmatter, add a <code>head</code> param to insert any HTML code before the menu entry:</p>
-
 <p>example to display a &ldquo;Hello&rdquo;</p>
-
 <pre><code>+++
 title = &quot;Github repo&quot;
 head =&quot;&lt;label&gt;Hello&lt;/label&gt; &quot;
 +++
 </code></pre>
-
 <h3 id="add-icon-to-a-menu-entry">Add icon to a menu entry</h3>
-
 <p>in the page frontmatter, add a <code>pre</code> param to insert any HTML code before the menu label:</p>
-
 <p>example to display a github icon</p>
-
 <pre><code>+++
 title = &quot;Github repo&quot;
 pre =&quot;&lt;i class='fa fa-github'&gt;&lt;/i&gt; &quot;
 +++
 </code></pre>
-
-<p><img src="/menu-entry-icon.png?height=40px&amp;classes=shadow" alt="dsf" /></p>
-
-<!-- ### Customize menu entry label
-
-Add a `name` param next to `[menu.main]`
-
-    +++
-    [menu.main]
-    parent = ""
-    identifier = "repo"
-    pre ="<i class='fa fa-github'></i> "
-    name = "Github repo"
-    +++ -->
-
-<!-- ### Create a page redirector
-Add a `url` param next to `[menu.main]`
-
-    +++
-    [menu.main]
-    parent = "page"
-    identifier = "page-images"
-    weight = 23
-    url = "/shortcode/image/"
-    +++
-
-<div class="alert 
-	alert-info"
- 
-role="alert">Look at the menu &ldquo;Create Page/About images&rdquo; which redirects to &ldquo;Shortcodes/image</div>
-
- -->
-
-<h3 id="order-sibling-menu-page-entries">Order sibling menu/page entries</h3>
-
+<p><img src="/menu-entry-icon.png?height=40px&amp;classes=shadow" alt="dsf"></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h3 id="order-sibling-menupage-entries">Order sibling menu/page entries</h3>
 <p>in your frontmatter add <code>weight</code> param with a number to order.</p>
-
 <pre><code>+++
 title=&quot;My page&quot;
 weight = 4
 +++
 </code></pre>
-
-<div class="alert alert-info" role="alert">add <code>ordersectionsby = &quot;title&quot;</code> in your config.toml to order menu entries by title</div>
-
-
+<!-- raw HTML omitted -->
 <h3 id="hide-a-menu-entry">Hide a menu entry</h3>
-
 <p>in your frontmatter add <code>hidden=true</code> param.</p>
-
 <pre><code>+++
 title=&quot;My page&quot;
 hidden = true
 +++
 </code></pre>
-
 <h3 id="unfolded-menu-entry-by-default">Unfolded menu entry by default</h3>
-
 <p>One or more menuentries can be displayed unfolded by default. (like the &ldquo;Getting start&rdquo; menu entry  in this website)</p>
-
 <p>in your frontmatter add <code>alwaysopen=true</code> param.
 example :</p>
-
 <pre><code>title = &quot;Getting start&quot;
 description = &quot;&quot;
 weight = 1
 alwaysopen = true
-</code></pre>
-
-<h3 id="folder-structure-and-file-name">Folder structure and file name</h3>
-
+</code></pre><h3 id="folder-structure-and-file-name">Folder structure and file name</h3>
 <p>Content organization <strong>is</strong> your <code>content</code> folder structure.</p>
-
 <h3 id="homepage">Homepage</h3>
-
 <p>Find out how to <a href="/my-note-for-cs224n-stanford/create-page/homepage/">customize homepage</a></p>
 
 
@@ -840,7 +778,7 @@ alwaysopen = true
 
   
     <div class="date">
-        <i class='fa fa-calendar'></i> Last update on 24/04/2017
+        <i class='fa fa-calendar'></i> Last update on 29/04/2017
     </div>
     
 

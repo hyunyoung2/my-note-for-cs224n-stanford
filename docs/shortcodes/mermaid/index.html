@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="generator" content="Hugo 0.40.1" />
+<meta name="generator" content="Hugo 0.83.1" />
 <title>mermaid :: my note for CS224n of stanford</title>
 <link rel="shortcut icon" href="/my-note-for-cs224n-stanford/images/favicon.png" type="image/x-icon" />
 <link href="/my-note-for-cs224n-stanford/css/font-awesome.min.css" rel="stylesheet">
@@ -687,34 +687,26 @@
     
     
     
+    <h2 id="flowchart-example">Flowchart example</h2>
+<!-- raw HTML omitted -->
+<pre><code>    Show code ...
     
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;expand-content&quot; style=&quot;display: none;&quot;&gt;
 
-<h2 id="flowchart-example">Flowchart example</h2>
-
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-        
-        Show code ...
-        
-        </span>
-    </div>
-    <div class="expand-content" style="display: none;">
-<pre><code>{{&lt;mermaid align=&quot;left&quot;&gt;}}
+{{&lt;mermaid align=&quot;left&quot;&gt;}}
 graph LR;
-    A[Hard edge] --&gt;|Link text| B(Round edge)
-    B --&gt; C{Decision}
-    C --&gt;|One| D[Result one]
-    C --&gt;|Two| E[Result two]
+	A[Hard edge] --&gt;|Link text| B(Round edge)
+	B --&gt; C{Decision}
+	C --&gt;|One| D[Result one]
+	C --&gt;|Two| E[Result two]
 {{&lt; /mermaid &gt;}}
+
+&lt;/div&gt;
 </code></pre>
-
-    </div>
-</div>
-
-<p><link href="/my-note-for-cs224n-stanford/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
+<!-- raw HTML omitted -->
+<link href="/my-note-for-cs224n-stanford/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
 <script defer src="/my-note-for-cs224n-stanford/mermaid/mermaid.js">mermaid.initialize({startOnLoad:true});</script>
 <div class="mermaid" align="left" >
 graph LR;
@@ -722,22 +714,16 @@ graph LR;
     B --> C{Decision}
     C -->|One| D[Result one]
     C -->|Two| E[Result two]
-</div></p>
-
+</div>
 <h2 id="sequence-example">Sequence example</h2>
+<!-- raw HTML omitted -->
+<pre><code>    Show code ...
+    
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;expand-content&quot; style=&quot;display: none;&quot;&gt;
 
-<p><div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-        
-        Show code ...
-        
-        </span>
-    </div>
-    <div class="expand-content" style="display: none;">
-<pre><code>{{&lt;mermaid&gt;}}
+{{&lt;mermaid&gt;}}
 sequenceDiagram
     participant Alice
     participant Bob
@@ -750,12 +736,11 @@ sequenceDiagram
     John-&gt;Bob: How about you?
     Bob--&gt;John: Jolly good!
 {{&lt; /mermaid &gt;}}
+
+&lt;/div&gt;
 </code></pre>
-
-    </div>
-</div></p>
-
-<p><link href="/my-note-for-cs224n-stanford/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
+<!-- raw HTML omitted -->
+<link href="/my-note-for-cs224n-stanford/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
 <script defer src="/my-note-for-cs224n-stanford/mermaid/mermaid.js">mermaid.initialize({startOnLoad:true});</script>
 <div class="mermaid" align="center" >
 sequenceDiagram
@@ -769,22 +754,16 @@ sequenceDiagram
     John-->Alice: Great!
     John->Bob: How about you?
     Bob-->John: Jolly good!
-</div></p>
-
+</div>
 <h2 id="gantt-example">GANTT Example</h2>
+<!-- raw HTML omitted -->
+<pre><code>    Show code ...
+    
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;expand-content&quot; style=&quot;display: none;&quot;&gt;
 
-<p><div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-        
-        Show code ...
-        
-        </span>
-    </div>
-    <div class="expand-content" style="display: none;">
-<pre><code>{{&lt;mermaid&gt;}}
+{{&lt;mermaid&gt;}}
 gantt
         dateFormat  YYYY-MM-DD
         title Adding GANTT diagram functionality to mermaid
@@ -801,12 +780,11 @@ gantt
         Create tests for renderer           :2d
         Add to mermaid                      :1d
 {{&lt; /mermaid &gt;}}
+
+&lt;/div&gt;
 </code></pre>
-
-    </div>
-</div></p>
-
-<p><link href="/my-note-for-cs224n-stanford/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
+<!-- raw HTML omitted -->
+<link href="/my-note-for-cs224n-stanford/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
 <script defer src="/my-note-for-cs224n-stanford/mermaid/mermaid.js">mermaid.initialize({startOnLoad:true});</script>
 <div class="mermaid" align="center" >
 gantt
@@ -824,7 +802,7 @@ gantt
         Future task in critical line        :crit, 5d
         Create tests for renderer           :2d
         Add to mermaid                      :1d
-</div></p>
+</div>
 
 
     

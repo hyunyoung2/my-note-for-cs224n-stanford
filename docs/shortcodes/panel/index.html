@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="generator" content="Hugo 0.40.1" />
+<meta name="generator" content="Hugo 0.83.1" />
 <title>panel :: my note for CS224n of stanford</title>
 <link rel="shortcut icon" href="/my-note-for-cs224n-stanford/images/favicon.png" type="image/x-icon" />
 <link href="/my-note-for-cs224n-stanford/css/font-awesome.min.css" rel="stylesheet">
@@ -687,143 +687,80 @@
     
     
     
-    
-
-<div class="panel panel-success">
-	<div class="panel-heading">The panel shortcode</div>
-	<div class="panel-body">Allow you to highlight information or put it in a box. They create a colored box surrounding your text</div>
-	
-</div>
-
-
+    <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <h2 id="usage">Usage</h2>
-
 <table>
 <thead>
 <tr>
-<th align="left">Parameter</th>
-<th align="left">Default</th>
-<th align="left">Description</th>
+<th style="text-align:left">Parameter</th>
+<th style="text-align:left">Default</th>
+<th style="text-align:left">Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
-<td align="left">header</td>
-<td align="left">none</td>
-<td align="left">The title of the panel. If specified, this title will be displayed in its own header row.</td>
+<td style="text-align:left">header</td>
+<td style="text-align:left">none</td>
+<td style="text-align:left">The title of the panel. If specified, this title will be displayed in its own header row.</td>
 </tr>
-
 <tr>
-<td align="left">footer</td>
-<td align="left">none</td>
-<td align="left">the footer of the panel. If specified, this text will be displayed in its own row</td>
+<td style="text-align:left">footer</td>
+<td style="text-align:left">none</td>
+<td style="text-align:left">the footer of the panel. If specified, this text will be displayed in its own row</td>
 </tr>
-
 <tr>
-<td align="left">theme</td>
-<td align="left"><code>primary</code></td>
-<td align="left"><code>default</code>,<code>primary</code>,<code>info</code>,<code>success</code>,<code>warning</code>,<code>danger</code></td>
+<td style="text-align:left">theme</td>
+<td style="text-align:left"><code>primary</code></td>
+<td style="text-align:left"><code>default</code>,<code>primary</code>,<code>info</code>,<code>success</code>,<code>warning</code>,<code>danger</code></td>
 </tr>
 </tbody>
 </table>
-
 <h2 id="basic-example">Basic example</h2>
-
 <p>By default :</p>
-
 <pre><code>{{% panel %}}this is a panel text{{% /panel %}}
 </code></pre>
-
-<div class="panel panel-primary">
-	
-	<div class="panel-body">this is a panel text</div>
-	
-</div>
-
-
+<!-- raw HTML omitted -->
+<pre><code>&lt;div class=&quot;panel-body&quot;&gt;this is a panel text&lt;/div&gt;
+</code></pre>
+<!-- raw HTML omitted -->
 <h2 id="panel-with-heading">Panel with heading</h2>
-
 <p>Easily add a heading container to your panel with <code>header</code> parameter. You may apply any theme.</p>
-
 <pre><code>{{% panel theme=&quot;danger&quot; header=&quot;panel title&quot; %}}this is a panel text{{% /panel %}}
 </code></pre>
-
-<div class="panel panel-danger">
-	<div class="panel-heading">panel title</div>
-	<div class="panel-body">this is a panel text</div>
-	
-</div>
-
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <pre><code>{{% panel theme=&quot;success&quot; header=&quot;panel title&quot; %}}this is a panel text{{% /panel %}}
 </code></pre>
-
-<div class="panel panel-success">
-	<div class="panel-heading">panel title</div>
-	<div class="panel-body">this is a panel text</div>
-	
-</div>
-
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <h2 id="panel-with-footer">Panel with footer</h2>
-
 <p>Wrap a secondary text in footer.</p>
-
 <pre><code>{{% panel footer=&quot;panel footer&quot; %}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{% /panel %}}
 </code></pre>
-
-<div class="panel panel-primary">
-	
-	<div class="panel-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<!-- raw HTML omitted -->
+<pre><code>&lt;div class=&quot;panel-body&quot;&gt;
+</code></pre>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-	<div class="panel-footer">panel footer</div>
-</div>
-
-
+<!-- raw HTML omitted -->
 <h2 id="themes">Themes</h2>
-
-<p><div class="panel panel-success">
-	<div class="panel-heading">Success theme</div>
-	<div class="panel-body">this is a panel text</div>
-	
-</div>
-
-<div class="panel panel-default">
-	<div class="panel-heading">default theme</div>
-	<div class="panel-body">this is a panel text</div>
-	
-</div>
-
-<div class="panel panel-primary">
-	<div class="panel-heading">primary theme</div>
-	<div class="panel-body">this is a panel text</div>
-	
-</div>
-
-<div class="panel panel-info">
-	<div class="panel-heading">info theme</div>
-	<div class="panel-body">this is a panel text</div>
-	
-</div>
-
-<div class="panel panel-warning">
-	<div class="panel-heading">warning theme</div>
-	<div class="panel-body">this is a panel text</div>
-	
-</div>
-
-<div class="panel panel-danger">
-	<div class="panel-heading">danger theme</div>
-	<div class="panel-body">this is a panel text</div>
-	
-</div>
-</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
 
     

@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="generator" content="Hugo 0.40.1" />
+<meta name="generator" content="Hugo 0.83.1" />
 <title>excerpt-include :: my note for CS224n of stanford</title>
 <link rel="shortcut icon" href="/my-note-for-cs224n-stanford/images/favicon.png" type="image/x-icon" />
 <link href="/my-note-for-cs224n-stanford/css/font-awesome.min.css" rel="stylesheet">
@@ -687,67 +687,51 @@
     
     
     
-    
-
-<p>The Excerpt Include shortcode is used to display &lsquo;excerpted&rsquo; (that is, a segment of) content from one page in another.
-Before you can use this shortcode, the excerpt must have been defined using the Excerpt shortcode. <div class="alert 
-	alert-info"
- 
-role="alert">Note that you can have more than one Excerpt Include shortcode on a page (although you can have only one Excerpt shortcode on a page).</div>
-</p>
-
+    <p>The Excerpt Include shortcode is used to display &lsquo;excerpted&rsquo; (that is, a segment of) content from one page in another.
+Before you can use this shortcode, the excerpt must have been defined using the Excerpt shortcode. &lt;div class=&ldquo;alert
+alert-info&rdquo;</p>
+<p>role=&ldquo;alert&rdquo;&gt;Note that you can have more than one Excerpt Include shortcode on a page (although you can have only one Excerpt shortcode on a page).<!-- raw HTML omitted --></p>
 <h2 id="usage">Usage</h2>
-
 <table>
 <thead>
 <tr>
-<th align="left">Parameter</th>
-<th align="left">Default</th>
-<th align="left">Description</th>
+<th style="text-align:left">Parameter</th>
+<th style="text-align:left">Default</th>
+<th style="text-align:left">Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
-<td align="left">filename</td>
-<td align="left"><strong>required</strong></td>
-<td align="left">Type the filename of the page that contains the excerpt to be displayed.<br/>Path is relative to the content folder</td>
+<td style="text-align:left">filename</td>
+<td style="text-align:left"><strong>required</strong></td>
+<td style="text-align:left">Type the filename of the page that contains the excerpt to be displayed.<!-- raw HTML omitted -->Path is relative to the content folder</td>
 </tr>
-
 <tr>
-<td align="left">panel</td>
-<td align="left">none</td>
-<td align="left">Determines whether docDock will display a panel around the excerpted content. The panel includes the given panel&rsquo;s value and the border of the panel. By default, the panel and title are not shown.</td>
+<td style="text-align:left">panel</td>
+<td style="text-align:left">none</td>
+<td style="text-align:left">Determines whether docDock will display a panel around the excerpted content. The panel includes the given panel&rsquo;s value and the border of the panel. By default, the panel and title are not shown.</td>
 </tr>
 </tbody>
 </table>
-
 <h2 id="demo">Demo</h2>
-
 <p>The paragraph below shows an example of an Excerpt Include shortcode, containing content from an excerpt which we have defined on the Excerpt shortcode page. On the Excerpt Include shortcode below, we have set the options to show both the title of the page and the panel surrounding the content.</p>
-
 <pre><code>{{%excerpt-include filename=&quot;shortcodes/excerpt.md&quot; panel=&quot;From excerpt page&quot; /%}}
+
+
+
+
+	&lt;div class=&quot;panel panel-default&quot;&gt;
+        &lt;div class=&quot;panel-heading&quot;&gt;From excerpt page&lt;/div&gt;
+        &lt;div class=&quot;panel-body&quot;&gt;
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 </code></pre>
-
-
-
-	
-		<div class="panel panel-default">
-			<div class="panel-heading">From excerpt page</div>
-			<div class="panel-body">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation <strong>ullamco</strong> laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in <em>reprehenderit in voluptate</em>
+<p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation <!-- raw HTML omitted -->ullamco<!-- raw HTML omitted --> laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in <!-- raw HTML omitted -->reprehenderit in voluptate<!-- raw HTML omitted -->
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-		</div>
-	
-
-
-
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --></p>
 <blockquote>
 <p>Don&rsquo;t create an excerpt file in the <code>/layouts/shortcodes/</code> folder.
 In this example, <code>shortcodes/filename.md</code> is part of the <code>exampleSite/content</code> folder, and <code>shortcodes</code> is just a path in the <code>/content</code>.</p>

@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="generator" content="Hugo 0.40.1" />
+<meta name="generator" content="Hugo 0.83.1" />
 <title>expand :: my note for CS224n of stanford</title>
 <link rel="shortcut icon" href="/my-note-for-cs224n-stanford/images/favicon.png" type="image/x-icon" />
 <link href="/my-note-for-cs224n-stanford/css/font-awesome.min.css" rel="stylesheet">
@@ -687,56 +687,38 @@
     
     
     
-    
-
-<p>The Expand shortcode displays an expandable/collapsible section of text on your page.
+    <p>The Expand shortcode displays an expandable/collapsible section of text on your page.
 Here is an example</p>
-
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-        
-        Expand me...
-        
-        </span>
-    </div>
-    <div class="expand-content" style="display: none;">
+<!-- raw HTML omitted -->
+<pre><code>    Expand me...
+    
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;expand-content&quot; style=&quot;display: none;&quot;&gt;
+</code></pre>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    </div>
-</div>
-
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
 <h2 id="usage">Usage</h2>
-
-<p>this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is &ldquo;Expand me&hellip;&rdquo;)</p>
-
+<p>this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is &ldquo;Expand me&hellip;&quot;)</p>
 <pre><code>{{%expand &quot;Is this docdock theme rocks ?&quot; %}}Yes !.{{% /expand%}}
 </code></pre>
-
-<p><div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-        
-        Is this docdock theme rocks ?
-        
-        </span>
-    </div>
-    <div class="expand-content" style="display: none;">
-Yes !
-    </div>
-</div></p>
-
+<!-- raw HTML omitted -->
+<pre><code>    Is this docdock theme rocks ?
+    
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;expand-content&quot; style=&quot;display: none;&quot;&gt;
+</code></pre>
+<p>Yes !
+<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
 <h1 id="demo">Demo</h1>
-
 <pre><code>{{%expand%}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -744,27 +726,21 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{% /expand%}}
 </code></pre>
-
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-        
-        Expand me...
-        
-        </span>
-    </div>
-    <div class="expand-content" style="display: none;">
+<!-- raw HTML omitted -->
+<pre><code>    Expand me...
+    
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;expand-content&quot; style=&quot;display: none;&quot;&gt;
+</code></pre>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    </div>
-</div>
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
 
 
     

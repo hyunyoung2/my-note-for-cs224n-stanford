@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Content Organisation on my note for CS224n of stanford</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Content Organisation on my note for CS224n of stanford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Apr 2017 18:36:24 +0200</lastBuildDate>
-    
-	<atom:link href="https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 29 Apr 2017 18:36:24 +0200</lastBuildDate><atom:link href="https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Logo placeholder</title>
       <link>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/logo/</link>
@@ -18,7 +14,7 @@
       
       <guid>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/logo/</guid>
       <description>Create a _header.md page in content folder. Its content is what you get in the logo placeholder (top left of the screen).
-Tip : you can add a image, a combobox with links to other documentation&amp;hellip;. Tip 2 : look at extra static menu if you want to add links to other website in this sidebar </description>
+role=&amp;ldquo;alert&amp;rdquo;&amp;gt;Tip : you can add a image, a combobox with links to other documentation&amp;hellip;.role=&amp;ldquo;alert&amp;rdquo;&amp;gt;Tip 2 : look at extra static menu if you want to add links to other website in this sidebar</description>
     </item>
     
     <item>

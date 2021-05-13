@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tag2 on my note for CS224n of stanford</title>
+    <title>tag2 on my note for CS224n of stanford</title>
     <link>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/tags/tag2/</link>
-    <description>Recent content in Tag2 on my note for CS224n of stanford</description>
+    <description>Recent content in tag2 on my note for CS224n of stanford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Apr 2017 18:36:24 +0200</lastBuildDate>
-    
-	<atom:link href="https://hyunyoung2.github.io/my-note-for-cs224n-stanford/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 28 Apr 2017 18:36:24 +0200</lastBuildDate><atom:link href="https://hyunyoung2.github.io/my-note-for-cs224n-stanford/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create Page</title>
       <link>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/</link>

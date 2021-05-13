@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="generator" content="Hugo 0.40.1" />
+<meta name="generator" content="Hugo 0.83.1" />
 <title>button :: my note for CS224n of stanford</title>
 <link rel="shortcut icon" href="/my-note-for-cs224n-stanford/images/favicon.png" type="image/x-icon" />
 <link href="/my-note-for-cs224n-stanford/css/font-awesome.min.css" rel="stylesheet">
@@ -687,53 +687,42 @@
     
     
     
-    
-
-<p>Display an actionable button in your page.</p>
-
+    <p>Display an actionable button in your page.</p>
 
 <center>
 <button class="btn  btn-warning" type="button"  onclick="location.href='#'" > This is a warning button </button>
 </center>
 
 
-
 <h2 id="usage">Usage</h2>
-
 <table>
 <thead>
 <tr>
-<th align="left">Parameter</th>
-<th align="left">Default</th>
-<th align="left">Description</th>
+<th style="text-align:left">Parameter</th>
+<th style="text-align:left">Default</th>
+<th style="text-align:left">Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
-<td align="left">href</td>
-<td align="left">&rdquo;&rdquo;</td>
-<td align="left">The location href to link to</td>
+<td style="text-align:left">href</td>
+<td style="text-align:left">&quot;&quot;</td>
+<td style="text-align:left">The location href to link to</td>
 </tr>
-
 <tr>
-<td align="left">align</td>
-<td align="left">&ldquo;center&rdquo;</td>
-<td align="left">horizontal align button on page</td>
+<td style="text-align:left">align</td>
+<td style="text-align:left">&ldquo;center&rdquo;</td>
+<td style="text-align:left">horizontal align button on page</td>
 </tr>
-
 <tr>
-<td align="left">theme</td>
-<td align="left"><code>primary</code></td>
-<td align="left"><code>default</code>, <code>primary</code> , <code>success</code>,<code>info</code>,<code>warning</code>,<code>danger</code></td>
+<td style="text-align:left">theme</td>
+<td style="text-align:left"><code>primary</code></td>
+<td style="text-align:left"><code>default</code>, <code>primary</code> , <code>success</code>,<code>info</code>,<code>warning</code>,<code>danger</code></td>
 </tr>
 </tbody>
 </table>
-
 <p>The inner text you place in short code will be displayed as the <em>button text</em></p>
-
 <h2 id="demo">Demo</h2>
-
 <pre><code>{{&lt; button href=&quot;https://google.com&quot; &gt;}} go to google {{&lt; /button &gt;}}
 {{&lt; button href=&quot;https://google.com&quot; theme=&quot;success&quot; &gt;}} Success {{&lt; /button &gt;}}
 {{&lt; button href=&quot;https://google.com&quot; theme=&quot;info&quot; &gt;}} Info {{&lt; /button &gt;}}
@@ -741,7 +730,6 @@
 {{&lt; button href=&quot;https://google.com&quot; theme=&quot;danger&quot; &gt;}} Danger ! {{&lt; /button &gt;}}
 {{&lt; button href=&quot;https://google.com&quot; theme=&quot;default&quot; &gt;}} Danger ! {{&lt; /button &gt;}}
 </code></pre>
-
 <p>
 
 <button class="btn  btn-primary" type="button"  onclick="location.href='https:\/\/google.com'" > go to google </button>

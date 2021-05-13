@@ -1,355 +1,186 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/logo/</loc>
     <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/getting-start/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/getting-start/installation/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture01/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture02/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture03/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture04/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture05/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture06/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture07/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture08/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture09/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture10/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture11/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture12/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture13/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture14/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/lecture15/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_video/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note01/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note02/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note03/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note04/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note05/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note06/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note07/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note08/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note09/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note10/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note11/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note12/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note13/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note14/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/note15/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/extramenu/</loc>
     <lastmod>2017-04-29T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/getting-start/configuration/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/lecture_note/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/customize-style/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/</loc>
     <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/</loc>
     <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/search/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/</loc>
+    <lastmod>2018-01-24T19:18:00+09:00</lastmod>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/post/</loc>
     <lastmod>2018-01-24T19:18:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/homepage/</loc>
-    <lastmod>2017-04-28T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/page-images/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/myslide/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/page-slide/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/_footer/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/_header/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/credits/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/customize-style/disable/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/showcase/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/post/</loc>
     <lastmod>2018-01-24T19:18:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/homepage/</loc>
+    <lastmod>2017-04-28T18:36:24+02:00</lastmod>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/tags/tag1/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2017-04-28T18:36:24+02:00</lastmod>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/tags/tag2/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2017-04-28T18:36:24+02:00</lastmod>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/tags/</loc>
+    <lastmod>2017-04-28T18:36:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/page-images/</loc>
     <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/_footer/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/_header/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/myslide/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/create-page/page-slide/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/alert/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/attachments/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/button/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/categories/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/credits/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/customize-style/disable/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/showcase/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/excerpt/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/excerpt-include/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/expand/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/icon/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/mermaid/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/notice/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-1/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-2/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-3/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-4/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/test/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-2/test3/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/panel/</loc>
+  </url><url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/revealjs/</loc>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/customize-style/themestyle/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/content-organisation/customize-style/theme-variants/</loc>
   </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/alert/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/attachments/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/button/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/excerpt/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/excerpt-include/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/expand/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/icon/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/mermaid/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/notice/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-2/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-4/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/test/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/children/children-2/test3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/panel/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs224n-stanford/shortcodes/revealjs/</loc>
-  </url>
-  
 </urlset>
